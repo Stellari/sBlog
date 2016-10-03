@@ -68,6 +68,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'Blog.views.global_setting'
             ],
         },
     },
@@ -129,6 +130,12 @@ STATICFILES_DIRS =(
     os.path.join(BASE_DIR, 'static'),
 
 )
+
+#网站基本信息：
+SITE_NAME = "Stellari's BLOG"
+SITE_DESC = "Stellari练手的博客，欢迎修改"
+WEIBO = "http://weibo.com/lixh"
+EMAIL = "stellarilee@163.com"
 
 #日志器配置
 LOGGING = {

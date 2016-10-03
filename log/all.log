@@ -5,3 +5,37 @@
 2016-10-03 14:20:35,968 [Dummy-1:3648] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
 2016-10-03 14:20:36,071 [Thread-2:2512] [Blog.views:10] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
 2016-10-03 14:20:36,090 [Thread-2:2512] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 11042
+2016-10-03 14:32:54,029 [Dummy-1:4416] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-03 14:32:54,036 [Dummy-1:4416] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-03 14:32:54,365 [Thread-2:12744] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-03 14:32:55,330 [Thread-2:12744] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 143075
+2016-10-03 14:33:13,445 [Thread-8:13460] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-03 14:33:13,981 [Thread-8:13460] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 109610
+2016-10-03 14:33:14,792 [Thread-9:13464] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-03 14:33:14,969 [Thread-9:13464] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 109611
+2016-10-03 14:33:49,012 [Dummy-1:13928] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-03 14:33:49,021 [Dummy-1:13928] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-03 14:33:49,180 [Thread-2:13932] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-03 14:33:49,335 [Thread-2:13932] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 91728
+2016-10-03 14:33:50,029 [Thread-3:13936] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-03 14:33:50,161 [Thread-3:13936] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 92269
+2016-10-03 14:36:57,085 [Dummy-1:9944] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-03 14:36:57,089 [Dummy-1:9944] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-03 14:36:59,880 [Thread-2:11692] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-03 14:37:00,061 [Thread-2:11692] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 92270
+2016-10-03 14:40:41,830 [Dummy-1:12776] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-03 14:40:41,836 [Dummy-1:12776] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-03 14:40:44,512 [Thread-2:1476] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-03 14:40:44,526 [Thread-2:1476] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 11044
