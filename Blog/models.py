@@ -38,4 +38,65 @@ class Catagory(models.Model):
     def __str__(self):
         return self.name
 
-#
+# Article 文章模型
+class Article(models.Model):
+    title = models.CharField(max_length=50, verbose_name="文章标题")
+    desc = models.CharField(max_length=50, verbose_name="文章描述")
+    content = models.TextField(verbose_name="文章内容")
+    click_count = models.IntegerField(default=0, verbose_name="点击次数")
+    is_recommend = models.BooleanField(default=False,verbose_name="被推荐")
+    date_publish = models.DateTimeField(auto_now_add=True,verbose_name="发布时间")
+    user = models.ForeignKey(User,verbose_name="用户")
+    category = models.ForeignKey(Category, blank=True, null=True,verbose_name="文章分类")
+    tag = models.ForeignKey(Tag,verbose_name="标签")
+
+    class Meta:
+        verbose_name_plural = verbose_name="文章"
+        ording =['-date_publish']
+
+    def __str__(self):
+        return self.title
+
+# 评论模型
+class Comment(models.Model):
+    content = models.TextField(verbose_name="评论内容")
+    date_publish = models.DateTimeField(auto_now_add=True,verbose_name="发布日期")
+    user = models.ForeignKey(User, null= True, blank=True,verbose_name="用户名")
+    article = models.ForeignKey(Article,blank=True,null=True,verbose_name="文章")
+    pid = models.ForeignKey('self',blank=True,null=True,verbose_name="父级评论")
+
+    class Meta:
+        verbose_name_plural =verbose_name ='评论'
+        ordering = ['-date_publish']
+
+    def __str__(self):
+        return self.id
+
+# Links 友情链接
+class Links(models.Model):
+    title = models.CharField(max_length=50,verbose_name='标题')
+    desc = models.CharField(max_length=200,verbose_name="描述")
+    callback_url = models.URLField(verbose_name="URL地址")
+    date_publish = models.DateTimeField(auto_now_add=True,verbose_name="发布时间")
+    index = models.IntegerField(default=999, verbose_name="排列顺序")
+
+    class Meta:
+        verbose_name_plural =verbose_name ='友情链接'
+
+    def __str__(self):
+        return self.title
+
+# Ad 广告
+class Ad(models.Model):
+    title = models.CharField(max_length=50, verbose_name='广告')
+    desc = models.CharField(max_length=200, verbose_name="描述")
+    img_url = models.ImageField(upload_to='ad/%Y/%m',verbose_name='图片路径')
+    callback_url = models.URLField(null=True,blank=True,verbose_name="链接URL")
+    index = models.IntegerField(default=999, verbose_name='排列顺序')
+
+    class Meta:
+        verbose_name_plural = verbose_name ='广告'
+        ordering = ['index','id']
+
+    def __str__(self):
+        return self.title
