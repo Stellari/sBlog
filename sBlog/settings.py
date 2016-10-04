@@ -132,7 +132,7 @@ STATICFILES_DIRS =(
 )
 
 # 自定义用户model
-AUTH_USER_MODEL = 'blog.User'
+AUTH_USER_MODEL = 'Blog.User'
 
 #网站基本信息：
 SITE_NAME = "Stellari's BLOG"
