@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding:utf-8 -*-
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
@@ -28,7 +28,7 @@ class Tag(models.Model):
         return self.name
 
 #catagory 分类
-class Catagory(models.Model):
+class Category(models.Model):
     name = models.CharField(max_length=30,verbose_name="分类名称")
     index = models.IntegerField(default= 999,verbose_name="分类排序")
 
@@ -52,7 +52,7 @@ class Article(models.Model):
 
     class Meta:
         verbose_name_plural = verbose_name="文章"
-        ording =['-date_publish']
+        ordering =['-date_publish']
 
     def __str__(self):
         return self.title
@@ -70,7 +70,7 @@ class Comment(models.Model):
         ordering = ['-date_publish']
 
     def __str__(self):
-        return self.id
+        return str(self.id)
 
 # Links 友情链接
 class Links(models.Model):

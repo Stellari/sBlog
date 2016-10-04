@@ -1,4 +1,4 @@
-# -*- conding: utf-8 -*-
+# -*- coding:utf-8 -*-
 """
 Django settings for sBlog project.
 
@@ -130,6 +130,9 @@ STATICFILES_DIRS =(
     os.path.join(BASE_DIR, 'static'),
 
 )
+
+# 自定义用户model
+AUTH_USER_MODEL = 'blog.User'
 
 #网站基本信息：
 SITE_NAME = "Stellari's BLOG"
