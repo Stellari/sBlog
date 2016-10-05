@@ -2208,3 +2208,210 @@ Traceback (most recent call last):
 django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'messages\': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000001FC77302320>, \'request\': <WSGIRequest: GET \'/admin/\'>, \'DEFAULT_MESSAGE_LEVELS\': {\'WARNING\': 30, \'DEBUG\': 10, \'ERROR\': 40, \'SUCCESS\': 25, \'INFO\': 20}, \'SITE_NAME\': "Stellari\'s BLOG", \'SITE_DESC\': \'Stellari练手的博客，欢迎修改\', \'csrf_token\': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001FC73CD3A60>>, \'perms\': <django.contrib.auth.context_processors.PermWrapper object at 0x000001FC77255E10>, \'user\': <SimpleLazyObject: <User: admin>>}, {}, {\'title\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000001FC76CB2080>, \'LANGUAGE_CODE\': \'zh-Hans\', \'LANGUAGE_BIDI\': False, \'app_list\': [{\'models\': [{\'object_name\': \'Category\', \'admin_url\': \'/admin/Blog/category/\', \'name\': \'分类\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/category/add/\'}, {\'object_name\': \'Links\', \'admin_url\': \'/admin/Blog/links/\', \'name\': \'友情链接\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/links/add/\'}, {\'object_name\': \'Ad\', \'admin_url\': \'/admin/Blog/ad/\', \'name\': \'广告\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/ad/add/\'}, {\'object_name\': \'Article\', \'admin_url\': \'/admin/Blog/article/\', \'name\': \'文章\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/article/add/\'}, {\'object_name\': \'Tag\', \'admin_url\': \'/admin/Blog/tag/\', \'name\': \'标签\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/tag/add/\'}, {\'object_name\': \'User\', \'admin_url\': \'/admin/Blog/user/\', \'name\': \'用户\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/user/add/\'}, {\'object_name\': \'Comment\', \'admin_url\': \'/admin/Blog/comment/\', \'name\': \'评论\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/comment/add/\'}], \'has_module_perms\': True, \'name\': \'Blog\', \'app_label\': \'Blog\', \'app_url\': \'/admin/Blog/\'}, {\'models\': [{\'object_name\': \'Group\', \'admin_url\': \'/admin/auth/group/\', \'name\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000001FC77302F98>, \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/auth/group/add/\'}], \'has_module_perms\': True, \'name\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000001FC76CB2BE0>, \'app_label\': \'auth\', \'app_url\': \'/admin/auth/\'}], \'site_header\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000001FC76C9FEF0>, \'has_permission\': True, \'site_title\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000001FC76C9FE48>, \'site_url\': \'/\', \'available_apps\': [{\'models\': [{\'object_name\': \'Category\', \'admin_url\': \'/admin/Blog/category/\', \'name\': \'分类\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/category/add/\'}, {\'object_name\': \'Links\', \'admin_url\': \'/admin/Blog/links/\', \'name\': \'友情链接\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/links/add/\'}, {\'object_name\': \'Ad\', \'admin_url\': \'/admin/Blog/ad/\', \'name\': \'广告\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/ad/add/\'}, {\'object_name\': \'Article\', \'admin_url\': \'/admin/Blog/article/\', \'name\': \'文章\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/article/add/\'}, {\'object_name\': \'Tag\', \'admin_url\': \'/admin/Blog/tag/\', \'name\': \'标签\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/tag/add/\'}, {\'object_name\': \'User\', \'admin_url\': \'/admin/Blog/user/\', \'name\': \'用户\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/user/add/\'}, {\'object_name\': \'Comment\', \'admin_url\': \'/admin/Blog/comment/\', \'name\': \'评论\', \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/Blog/comment/add/\'}], \'has_module_perms\': True, \'name\': \'Blog\', \'app_label\': \'Blog\', \'app_url\': \'/admin/Blog/\'}, {\'models\': [{\'object_name\': \'Group\', \'admin_url\': \'/admin/auth/group/\', \'name\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000001FC773021D0>, \'perms\': {\'add\': True, \'change\': True, \'delete\': True}, \'add_url\': \'/admin/auth/group/add/\'}], \'has_module_perms\': True, \'name\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000001FC76CB2BE0>, \'app_label\': \'auth\', \'app_url\': \'/admin/auth/\'}]}]'
 2016-10-05 13:30:57,175 [Thread-55:9276] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "Blog_user" ON ("django_admin_log"."user_id" = "Blog_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,)
 2016-10-05 13:30:57,186 [Thread-55:9276] [django.server:131] [INFO]- "GET /admin/ HTTP/1.1" 200 6503
+2016-10-05 13:32:52,212 [Thread-56:11220] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 05:32:52.209592'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 05:32:52.209592')
+2016-10-05 13:32:52,215 [Thread-56:11220] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:32:52,216 [Thread-56:11220] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
+2016-10-05 13:32:52,265 [Thread-56:11220] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" ORDER BY "Blog_user"."id" DESC; args=()
+2016-10-05 13:32:52,275 [Thread-56:11220] [django.template:929] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'model\': \'用户\', \'change_related_template_url\': \'/admin/Blog/user/__fk__/change/\', \'add_related_url\': \'/admin/Blog/user/add/\', \'can_change_related\': True, \'can_add_related\': True, \'widget\': \'<select id="id_user" name="user" required>\\n<option value="" selected="selected">---------</option>\\n<option value="2">Stellari</option>\\n<option value="1">admin</option>\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'name\': \'user\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2016-10-05 13:32:52,279 [Thread-56:11220] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_category"."id", "Blog_category"."name", "Blog_category"."index" FROM "Blog_category"; args=()
+2016-10-05 13:32:52,284 [Thread-56:11220] [django.template:929] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'model\': \'分类\', \'change_related_template_url\': \'/admin/Blog/category/__fk__/change/\', \'add_related_url\': \'/admin/Blog/category/add/\', \'can_change_related\': True, \'can_add_related\': True, \'widget\': \'<select id="id_category" name="category">\\n<option value="" selected="selected">---------</option>\\n<option value="1">Python</option>\\n<option value="2">Django</option>\\n<option value="3">Java</option>\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'name\': \'category\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2016-10-05 13:32:52,290 [Thread-56:11220] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_tag"."id", "Blog_tag"."name" FROM "Blog_tag"; args=()
+2016-10-05 13:32:52,294 [Thread-56:11220] [django.template:929] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'model\': \'标签\', \'change_related_template_url\': \'/admin/Blog/tag/__fk__/change/\', \'add_related_url\': \'/admin/Blog/tag/add/\', \'can_change_related\': True, \'can_add_related\': True, \'widget\': \'<select id="id_tag" name="tag" required>\\n<option value="" selected="selected">---------</option>\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'name\': \'tag\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2016-10-05 13:32:52,303 [Thread-56:11220] [django.server:131] [INFO]- "GET /admin/Blog/article/add/ HTTP/1.1" 200 9458
+2016-10-05 13:32:52,341 [Thread-57:2852] [django.db.backends:90] [DEBUG]- (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 05:32:52.336673'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 05:32:52.336673')
+2016-10-05 13:32:52,346 [Thread-57:2852] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:32:52,356 [Thread-57:2852] [django.server:131] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7415
+2016-10-05 13:33:58,326 [Dummy-1:4616] [django.db.backends:90] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:33:58,337 [Dummy-1:4616] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:34:35,429 [Thread-2:3012] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 05:34:35.424916'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 05:34:35.424916')
+2016-10-05 13:34:35,435 [Thread-2:3012] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:34:35,437 [Thread-2:3012] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
+2016-10-05 13:34:35,586 [Thread-2:3012] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'Blog' AND "django_content_type"."model" = 'article'); args=('Blog', 'article')
+2016-10-05 13:34:35,674 [Thread-2:3012] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" ORDER BY "Blog_user"."id" DESC; args=()
+2016-10-05 13:34:35,682 [Thread-2:3012] [django.template:929] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'None\': None, \'False\': False, \'True\': True}, {\'can_add_related\': True, \'can_change_related\': True, \'change_related_template_url\': \'/admin/Blog/user/__fk__/change/\', \'url_params\': \'_to_field=id&_popup=1\', \'name\': \'user\', \'model\': \'用户\', \'add_related_url\': \'/admin/Blog/user/add/\', \'widget\': \'<select id="id_user" name="user" required>\\n<option value="" selected="selected">---------</option>\\n<option value="2">Stellari</option>\\n<option value="1">admin</option>\\n</select>\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2016-10-05 13:34:35,689 [Thread-2:3012] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_category"."id", "Blog_category"."name", "Blog_category"."index" FROM "Blog_category"; args=()
+2016-10-05 13:34:35,695 [Thread-2:3012] [django.template:929] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'None\': None, \'False\': False, \'True\': True}, {\'can_add_related\': True, \'can_change_related\': True, \'change_related_template_url\': \'/admin/Blog/category/__fk__/change/\', \'url_params\': \'_to_field=id&_popup=1\', \'name\': \'category\', \'model\': \'分类\', \'add_related_url\': \'/admin/Blog/category/add/\', \'widget\': \'<select id="id_category" name="category">\\n<option value="" selected="selected">---------</option>\\n<option value="1">Python</option>\\n<option value="2">Django</option>\\n<option value="3">Java</option>\\n</select>\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2016-10-05 13:34:35,700 [Thread-2:3012] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_tag"."id", "Blog_tag"."name" FROM "Blog_tag"; args=()
+2016-10-05 13:34:35,709 [Thread-2:3012] [django.template:929] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'None\': None, \'False\': False, \'True\': True}, {\'can_add_related\': True, \'can_change_related\': True, \'change_related_template_url\': \'/admin/Blog/tag/__fk__/change/\', \'url_params\': \'_to_field=id&_popup=1\', \'name\': \'tag\', \'model\': \'标签\', \'add_related_url\': \'/admin/Blog/tag/add/\', \'widget\': \'<select id="id_tag" name="tag" required>\\n<option value="" selected="selected">---------</option>\\n</select>\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2016-10-05 13:34:35,719 [Thread-2:3012] [django.server:131] [INFO]- "GET /admin/Blog/article/add/ HTTP/1.1" 200 9458
+2016-10-05 13:34:35,743 [Thread-3:8900] [django.db.backends:90] [DEBUG]- (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 05:34:35.740126'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 05:34:35.740126')
+2016-10-05 13:34:35,746 [Thread-3:8900] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:34:35,755 [Thread-3:8900] [django.server:131] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7415
+2016-10-05 13:35:03,304 [Dummy-1:11140] [django.db.backends:90] [DEBUG]- (0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:35:03,310 [Dummy-1:11140] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:35:03,550 [Thread-2:8056] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:35:03.547933' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:35:03.547933', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:35:03,553 [Thread-2:8056] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:35:03,554 [Thread-2:8056] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
+2016-10-05 13:35:03,625 [Thread-2:8056] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."model" = 'article' AND "django_content_type"."app_label" = 'Blog'); args=('article', 'Blog')
+2016-10-05 13:35:03,701 [Thread-2:8056] [django.server:131] [INFO]- "GET /admin/Blog/article/add/ HTTP/1.1" 200 4824
+2016-10-05 13:35:03,722 [Thread-3:10344] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:35:03.718752' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:35:03.718752', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:35:03,729 [Thread-3:10344] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:35:03,737 [Thread-3:10344] [django.server:131] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7415
