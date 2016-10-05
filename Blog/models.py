@@ -19,7 +19,7 @@ class User(AbstractUser):
 
 #tag 标签
 class Tag(models.Model):
-    name = models.CharField(max_length=30,verbose_name='标签名称')
+    name = models.CharField(null= True,max_length=30,verbose_name='标签名称')
 
     class Meta:
         verbose_name_plural = verbose_name ='标签'
@@ -41,14 +41,14 @@ class Category(models.Model):
 # Article 文章模型
 class Article(models.Model):
     title = models.CharField(max_length=50, verbose_name="文章标题")
-    desc = models.CharField(max_length=50, verbose_name="文章描述")
-    content = models.TextField(verbose_name="文章内容")
-    click_count = models.IntegerField(default=0, verbose_name="点击次数")
+    desc = models.CharField(max_length=50, verbose_name="文章描述",null=True)
+    content = models.TextField(verbose_name="文章内容",null=True)
+    click_count = models.IntegerField(default=0, verbose_name="点击次数",null=True)
     is_recommend = models.BooleanField(default=False,verbose_name="被推荐")
-    date_publish = models.DateTimeField(auto_now_add=True,verbose_name="发布时间")
-    user = models.ForeignKey(User,verbose_name="用户")
+    date_publish = models.DateTimeField(auto_now_add=True,verbose_name="发布时间",null=True)
+    user = models.ForeignKey(User,verbose_name="用户",null=True)
     category = models.ForeignKey(Category, blank=True, null=True,verbose_name="文章分类")
-    tag = models.ForeignKey(Tag,verbose_name="标签")
+    tag = models.ForeignKey(Tag,verbose_name="标签",null=True)
 
     class Meta:
         verbose_name_plural = verbose_name="文章"

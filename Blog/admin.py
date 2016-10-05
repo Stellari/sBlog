@@ -3,6 +3,7 @@ from .models import *
 
 # Register your models here.
 class ArticleAdmin(admin.ModelAdmin):
+    list_display = ('title','desc','click_count',)
     fieldsets = (
         (None,{
             #默认展开
@@ -15,6 +16,13 @@ class ArticleAdmin(admin.ModelAdmin):
         }),
 
     )
+
+    class Media:
+        js =(
+            'js/kindeditor/kindeditor-min.js',
+            'js/kindeditor/lang/zh_CN.js',
+            'js/kindeditor/config.js',
+        )
 
 admin.site.register(User)
 admin.site.register(Tag)
