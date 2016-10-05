@@ -437,3 +437,147 @@
 2016-10-05 01:24:59,817 [MainThread:9392] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."username" = 'admin'; args=('admin',)
 2016-10-05 01:25:29,435 [MainThread:9392] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
 2016-10-05 01:25:29,439 [MainThread:9392] [django.db.backends:90] [DEBUG]- (0.002) INSERT INTO "Blog_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined", "avatar", "qq", "mobile") VALUES ('pbkdf2_sha256$30000$Ds4KLprR22Zl$UzHjd0L7O2QNFjvZUVV3kOMizC3s5HSE/MTE3YNkmyo=', NULL, 1, 'admin', '', '', 'hacklee@126.com', 1, 1, '2016-10-04 17:25:29.385498', 'avator/default.png', NULL, NULL); args=['pbkdf2_sha256$30000$Ds4KLprR22Zl$UzHjd0L7O2QNFjvZUVV3kOMizC3s5HSE/MTE3YNkmyo=', None, True, 'admin', '', '', 'hacklee@126.com', True, True, '2016-10-04 17:25:29.385498', 'avator/default.png', None, None]
+2016-10-05 12:00:41,422 [Dummy-1:14180] [django.db.backends:90] [DEBUG]- (0.022) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 12:00:41,446 [Dummy-1:14180] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 12:01:00,903 [Thread-2:10384] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-05 12:01:01,126 [Thread-2:10384] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 11044
+2016-10-05 12:01:01,496 [Thread-3:3664] [django.template:929] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\urls\resolvers.py", line 297, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2016-10-05 12:01:01,701 [Thread-3:3664] [django.server:131] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2051
+2016-10-05 13:01:43,782 [Dummy-1:6032] [django.db.backends:90] [DEBUG]- (0.017) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:01:43,818 [Dummy-1:6032] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:01:47,581 [Thread-2:9712] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-10-05 13:01:47,704 [Thread-2:9712] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 11044
+2016-10-05 13:01:47,842 [Thread-3:3820] [django.server:131] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 5003
+2016-10-05 13:01:47,843 [Thread-4:2212] [django.server:131] [INFO]- "GET /static/css/style.css HTTP/1.1" 200 6728
+2016-10-05 13:01:47,847 [Thread-6:6564] [django.server:131] [INFO]- "GET /static/js/jquery.SuperSlide.2.1.1.js HTTP/1.1" 200 11422
+2016-10-05 13:01:47,866 [Thread-5:4676] [django.server:131] [INFO]- "GET /static/js/jquery1.42.min.js HTTP/1.1" 200 72326
+2016-10-05 13:01:47,903 [Thread-7:7744] [django.server:131] [INFO]- "GET /static/js/nav.js HTTP/1.1" 200 199
+2016-10-05 13:01:47,937 [Thread-8:8936] [django.server:131] [INFO]- "GET /static/images/s.jpg HTTP/1.1" 200 7645
+2016-10-05 13:01:47,962 [Thread-14:10524] [django.server:131] [INFO]- "GET /static/images/r_line.jpg HTTP/1.1" 200 1191
+2016-10-05 13:01:47,963 [Thread-13:10552] [django.server:131] [INFO]- "GET /static/images/bg.jpg HTTP/1.1" 200 23642
+2016-10-05 13:01:47,967 [Thread-9:9432] [django.server:131] [INFO]- "GET /static/images/s1.jpg HTTP/1.1" 200 7886
+2016-10-05 13:01:47,969 [Thread-10:10544] [django.server:131] [INFO]- "GET /static/images/s2.jpg HTTP/1.1" 200 5010
+2016-10-05 13:01:47,970 [Thread-12:10548] [django.server:131] [INFO]- "GET /static/images/my.jpg HTTP/1.1" 200 15688
+2016-10-05 13:01:47,971 [Thread-11:7776] [django.server:131] [INFO]- "GET /static/images/s3.jpg HTTP/1.1" 200 9199
+2016-10-05 13:01:47,985 [Thread-16:10580] [django.server:131] [INFO]- "GET /static/images/tx.jpg HTTP/1.1" 200 1319
+2016-10-05 13:01:47,988 [Thread-15:10516] [django.server:131] [INFO]- "GET /static/images/tj.png HTTP/1.1" 200 7312
+2016-10-05 13:01:47,996 [Thread-17:10488] [django.server:131] [INFO]- "GET /static/images/sj.jpg HTTP/1.1" 200 1640
+2016-10-05 13:01:47,997 [Thread-18:10460] [django.server:131] [INFO]- "GET /static/images/qq_bg.png HTTP/1.1" 200 8742
+2016-10-05 13:01:48,054 [Thread-19:10480] [django.server:131] [INFO]- "GET /static/images/list.png HTTP/1.1" 200 1652
+2016-10-05 13:01:48,114 [Thread-20:10484] [django.template:929] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\urls\resolvers.py", line 297, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>], [<RegexURLResolver <module 'Blog.urls' from 'D:\\Django\\sBlog\\Blog\\urls.py'> (None:None) ^blog/$>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2016-10-05 13:01:48,179 [Thread-20:10484] [django.template:929] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\urls\resolvers.py", line 297, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>], [<RegexURLResolver <module 'Blog.urls' from 'D:\\Django\\sBlog\\Blog\\urls.py'> (None:None) ^blog/$>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'Blog.urls' from 'D:\\\\Django\\\\sBlog\\\\Blog\\\\urls.py'> (None:None) ^blog/$>"
+2016-10-05 13:01:48,182 [Thread-20:10484] [django.server:131] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2158
