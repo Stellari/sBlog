@@ -1418,3 +1418,58 @@ Traceback (most recent call last):
   File "D:\Programs\Python\Python35\lib\ntpath.py", line 535, in abspath
     path = _getfullpathname(path)
 TypeError: _getfullpathname: illegal type for path parameter
+2016-10-05 21:26:25,621 [Thread-2:15560] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 17, in index
+    return render (request,'index.html',{'ariticle_list': article_list})
+NameError: name 'ariticle_list' is not defined
+2016-10-05 21:29:31,674 [Thread-6:13308] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 17, in index
+    return render (request,'index.html',{'ariticle_list': article_list})
+NameError: name 'ariticle_list' is not defined
+2016-10-05 21:29:32,495 [Thread-7:16408] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 17, in index
+    return render (request,'index.html',{'ariticle_list': article_list})
+NameError: name 'ariticle_list' is not defined
+2016-10-05 21:29:32,984 [Thread-8:17020] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 17, in index
+    return render (request,'index.html',{'ariticle_list': article_list})
+NameError: name 'ariticle_list' is not defined
+2016-10-05 21:29:33,566 [Thread-9:15036] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 17, in index
+    return render (request,'index.html',{'ariticle_list': article_list})
+NameError: name 'ariticle_list' is not defined

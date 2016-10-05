@@ -1,6 +1,7 @@
 import logging
 from django.shortcuts import render
 from django.conf import settings
+from .models import *
 
 logger = logging.getLogger("Blog.views")
 # Create your views here.
@@ -10,7 +11,7 @@ def global_setting(request):
 
 def index(request):
     try:
-        file = open("sss.txt","r")
+        article_list = Article.objects.all()
     except Exception as e:
         logger.error(e)
-    return render (request,'index.html',locals())
+    return render (request,'index.html',{'ariticle_list': article_list},)

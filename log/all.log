@@ -10154,3 +10154,66 @@ django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in '
 2016-10-05 21:11:49,215 [Dummy-1:18152] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
 2016-10-05 21:11:50,091 [Thread-2:416] [Blog.views:15] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
 2016-10-05 21:11:50,110 [Thread-2:416] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 10882
+2016-10-05 21:17:52,682 [Dummy-1:12812] [django.db.backends:90] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 21:17:52,693 [Dummy-1:12812] [django.db.backends:90] [DEBUG]- (0.002) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 21:18:35,347 [Dummy-1:18140] [django.db.backends:90] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 21:18:35,360 [Dummy-1:18140] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 21:20:03,321 [Dummy-1:14796] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 21:20:03,325 [Dummy-1:14796] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 21:20:49,851 [Dummy-1:224] [django.db.backends:90] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 21:20:49,855 [Dummy-1:224] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 21:21:14,674 [Dummy-1:17760] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 21:21:14,679 [Dummy-1:17760] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 21:21:22,703 [Dummy-1:18260] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 21:21:22,708 [Dummy-1:18260] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 21:26:25,657 [Thread-2:15560] [django.db.backends:90] [DEBUG]- (0.002) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC LIMIT 21; args=()
+2016-10-05 21:26:25,699 [Thread-2:15560] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 13:26:25.697878'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 13:26:25.697878')
+2016-10-05 21:26:25,703 [Thread-2:15560] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 21:26:25,776 [Thread-2:15560] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 67276
+2016-10-05 21:29:31,728 [Thread-6:13308] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC LIMIT 21; args=()
+2016-10-05 21:29:31,755 [Thread-6:13308] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 13:29:31.754579'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 13:29:31.754579')
+2016-10-05 21:29:31,757 [Thread-6:13308] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 21:29:31,794 [Thread-6:13308] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 67276
+2016-10-05 21:29:32,521 [Thread-7:16408] [django.db.backends:90] [DEBUG]- (0.003) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC LIMIT 21; args=()
+2016-10-05 21:29:32,543 [Thread-7:16408] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 13:29:32.542842'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 13:29:32.542842')
+2016-10-05 21:29:32,545 [Thread-7:16408] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 21:29:32,588 [Thread-7:16408] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 67276
+2016-10-05 21:29:33,026 [Thread-8:17020] [django.db.backends:90] [DEBUG]- (0.002) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC LIMIT 21; args=()
+2016-10-05 21:29:33,066 [Thread-8:17020] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 13:29:33.064305'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 13:29:33.064305')
+2016-10-05 21:29:33,069 [Thread-8:17020] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 21:29:33,171 [Thread-8:17020] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 67276
+2016-10-05 21:29:33,599 [Thread-9:15036] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC LIMIT 21; args=()
+2016-10-05 21:29:33,619 [Thread-9:15036] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi' AND "django_session"."expire_date" > '2016-10-05 13:29:33.618203'); args=('cstpevxh2rjsl9zuziiv1dxzttef0sqi', '2016-10-05 13:29:33.618203')
+2016-10-05 21:29:33,622 [Thread-9:15036] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 21:29:33,658 [Thread-9:15036] [django.server:131] [ERROR]- "GET / HTTP/1.1" 500 67276
+2016-10-05 21:31:13,115 [Dummy-1:14076] [django.db.backends:90] [DEBUG]- (0.005) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 21:31:13,119 [Dummy-1:14076] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 21:31:13,225 [Thread-2:8716] [django.db.backends:90] [DEBUG]- (0.002) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC; args=()
+2016-10-05 21:31:13,231 [Thread-2:8716] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 7316
+2016-10-05 21:31:14,887 [Thread-3:18124] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC; args=()
+2016-10-05 21:31:14,889 [Thread-3:18124] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 7316
+2016-10-05 21:32:49,446 [Thread-9:15888] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC; args=()
+2016-10-05 21:32:49,453 [Thread-9:15888] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 7304
+2016-10-05 21:32:50,477 [Thread-10:8884] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_article"."id", "Blog_article"."title", "Blog_article"."desc", "Blog_article"."content", "Blog_article"."click_count", "Blog_article"."is_recommend", "Blog_article"."date_publish", "Blog_article"."user_id", "Blog_article"."category_id", "Blog_article"."tag_id" FROM "Blog_article" ORDER BY "Blog_article"."date_publish" DESC; args=()
+2016-10-05 21:32:50,480 [Thread-10:8884] [django.server:131] [INFO]- "GET / HTTP/1.1" 200 7304
