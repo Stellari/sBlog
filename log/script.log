@@ -186,3 +186,213 @@ Traceback (most recent call last):
 TypeError: global_setting() takes 0 positional arguments but 1 was given
 2016-10-05 12:01:01,655 [Thread-3:3664] [django.request:152] [WARNING]- Not Found: /favicon.ico
 2016-10-05 13:01:48,181 [Thread-20:10484] [django.request:152] [WARNING]- Not Found: /favicon.ico
+2016-10-05 13:42:43,275 [Thread-3:8908] [django.request:124] [ERROR]- Internal Server Error: /admin/Blog/article/add/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 642, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 543, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 252, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\Programs\Python\Python35\lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-10-05 13:43:44,954 [Thread-2:10676] [django.request:124] [ERROR]- Internal Server Error: /admin/Blog/article/add/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 642, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 543, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 252, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\Programs\Python\Python35\lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-10-05 13:43:46,327 [Thread-3:10416] [django.request:124] [ERROR]- Internal Server Error: /admin/Blog/article/add/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 642, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 543, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 252, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\Programs\Python\Python35\lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-10-05 13:44:37,418 [Thread-2:6920] [django.request:124] [ERROR]- Internal Server Error: /admin/Blog/article/add/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 642, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 543, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 252, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\Programs\Python\Python35\lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-10-05 13:44:38,768 [Thread-3:10572] [django.request:124] [ERROR]- Internal Server Error: /admin/Blog/article/add/
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 642, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 543, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\forms\models.py", line 252, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "D:\Programs\Python\Python35\lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (is_commend) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.

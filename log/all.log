@@ -2415,3 +2415,91 @@ django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_rel
 2016-10-05 13:35:03,722 [Thread-3:10344] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:35:03.718752' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:35:03.718752', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
 2016-10-05 13:35:03,729 [Thread-3:10344] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
 2016-10-05 13:35:03,737 [Thread-3:10344] [django.server:131] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7415
+2016-10-05 13:41:56,121 [Dummy-1:9020] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:41:56,135 [Dummy-1:9020] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:42:20,374 [Dummy-1:8396] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:42:20,381 [Dummy-1:8396] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:42:39,315 [Dummy-1:8440] [django.db.backends:90] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:42:39,323 [Dummy-1:8440] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:42:43,263 [Thread-3:8908] [django.db.backends:90] [DEBUG]- (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:42:43.259372' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:42:43.259372', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:42:43,271 [Thread-3:8908] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:42:43,273 [Thread-3:8908] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
+2016-10-05 13:42:43,579 [Thread-3:8908] [django.server:131] [ERROR]- "GET /admin/Blog/article/add/ HTTP/1.1" 500 136793
+2016-10-05 13:43:44,698 [Dummy-1:7516] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:43:44,705 [Dummy-1:7516] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:43:44,942 [Thread-2:10676] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:43:44.940063' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:43:44.940063', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:43:44,948 [Thread-2:10676] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:43:44,950 [Thread-2:10676] [django.db.backends:90] [DEBUG]- (0.001) BEGIN; args=None
+2016-10-05 13:43:45,116 [Thread-2:10676] [django.server:131] [ERROR]- "GET /admin/Blog/article/add/ HTTP/1.1" 500 136793
+2016-10-05 13:43:46,312 [Thread-3:10416] [django.db.backends:90] [DEBUG]- (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:43:46.309704' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:43:46.309704', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:43:46,323 [Thread-3:10416] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:43:46,324 [Thread-3:10416] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
+2016-10-05 13:43:46,500 [Thread-3:10416] [django.server:131] [ERROR]- "GET /admin/Blog/article/add/ HTTP/1.1" 500 136793
+2016-10-05 13:44:37,260 [Dummy-1:10352] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:44:37,268 [Dummy-1:10352] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:44:37,410 [Thread-2:6920] [django.db.backends:90] [DEBUG]- (0.004) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:44:37.405494' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:44:37.405494', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:44:37,415 [Thread-2:6920] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:44:37,416 [Thread-2:6920] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
+2016-10-05 13:44:37,579 [Thread-2:6920] [django.server:131] [ERROR]- "GET /admin/Blog/article/add/ HTTP/1.1" 500 136645
+2016-10-05 13:44:38,756 [Thread-3:10572] [django.db.backends:90] [DEBUG]- (0.002) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:44:38.749973' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:44:38.749973', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:44:38,761 [Thread-3:10572] [django.db.backends:90] [DEBUG]- (0.001) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:44:38,765 [Thread-3:10572] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
+2016-10-05 13:44:38,942 [Thread-3:10572] [django.server:131] [ERROR]- "GET /admin/Blog/article/add/ HTTP/1.1" 500 136645
+2016-10-05 13:45:39,102 [Dummy-1:1480] [django.db.backends:90] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2016-10-05 13:45:39,110 [Dummy-1:1480] [django.db.backends:90] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2016-10-05 13:45:41,041 [Thread-2:10860] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:45:41.038244' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:45:41.038244', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:45:41,049 [Thread-2:10860] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:45:41,051 [Thread-2:10860] [django.db.backends:90] [DEBUG]- (0.000) BEGIN; args=None
+2016-10-05 13:45:41,135 [Thread-2:10860] [django.db.backends:90] [DEBUG]- (0.001) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'Blog' AND "django_content_type"."model" = 'article'); args=('Blog', 'article')
+2016-10-05 13:45:41,211 [Thread-2:10860] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_category"."id", "Blog_category"."name", "Blog_category"."index" FROM "Blog_category"; args=()
+2016-10-05 13:45:41,216 [Thread-2:10860] [django.template:929] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'None\': None, \'False\': False, \'True\': True}, {\'model\': \'·ÖÀà\', \'change_related_template_url\': \'/admin/Blog/category/__fk__/change/\', \'name\': \'category\', \'widget\': \'<select id="id_category" name="category">\\n<option value="" selected="selected">---------</option>\\n<option value="1">Python</option>\\n<option value="2">Django</option>\\n<option value="3">Java</option>\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'can_change_related\': True, \'can_add_related\': True, \'add_related_url\': \'/admin/Blog/category/add/\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2016-10-05 13:45:41,230 [Thread-2:10860] [django.server:131] [INFO]- "GET /admin/Blog/article/add/ HTTP/1.1" 200 7212
+2016-10-05 13:45:41,256 [Thread-3:3884] [django.db.backends:90] [DEBUG]- (0.003) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2016-10-05 05:45:41.250910' AND "django_session"."session_key" = 'cstpevxh2rjsl9zuziiv1dxzttef0sqi'); args=('2016-10-05 05:45:41.250910', 'cstpevxh2rjsl9zuziiv1dxzttef0sqi')
+2016-10-05 13:45:41,259 [Thread-3:3884] [django.db.backends:90] [DEBUG]- (0.000) SELECT "Blog_user"."id", "Blog_user"."password", "Blog_user"."last_login", "Blog_user"."is_superuser", "Blog_user"."username", "Blog_user"."first_name", "Blog_user"."last_name", "Blog_user"."email", "Blog_user"."is_staff", "Blog_user"."is_active", "Blog_user"."date_joined", "Blog_user"."avatar", "Blog_user"."qq", "Blog_user"."mobile" FROM "Blog_user" WHERE "Blog_user"."id" = 1; args=(1,)
+2016-10-05 13:45:41,269 [Thread-3:3884] [django.server:131] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7415
+2016-10-05 13:45:41,333 [Thread-4:8080] [django.server:131] [INFO]- "GET /static/admin/js/collapse.js HTTP/1.1" 200 1151

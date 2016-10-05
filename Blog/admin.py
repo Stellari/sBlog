@@ -3,7 +3,18 @@ from .models import *
 
 # Register your models here.
 class ArticleAdmin(admin.ModelAdmin):
-    fields = ('title','desc','content',)
+    fieldsets = (
+        (None,{
+            #默认展开
+            'fields':('title','desc','content',)
+
+        }),
+        ('高级设置',{
+            'classes':('collapse',),
+            'fields':('category','is_recommend','click_count',)
+        }),
+
+    )
 
 admin.site.register(User)
 admin.site.register(Tag)
