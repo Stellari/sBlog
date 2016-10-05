@@ -6,7 +6,7 @@ from django.contrib.auth.models import AbstractUser
 # User 用户模型
 # 采用的集成方式扩展用户信息
 class User(AbstractUser):
-    avatar = models.ImageField(upload_to='avator/%Y/%m',default='avator/default.png',max_length=200)
+    avatar = models.ImageField(upload_to='avator/%Y/%m/%d',default='avator/default.png',max_length=200,blank=True,null=True,verbose_name='用户头像')
     qq = models.CharField(max_length=20, blank= True, null= True ,verbose_name='QQ号码')
     mobile = models.CharField(max_length=11, blank= True, null= True, unique=True,verbose_name='手机号码')
 
