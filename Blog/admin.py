@@ -12,7 +12,7 @@ class ArticleAdmin(admin.ModelAdmin):
         }),
         ('高级设置',{
             'classes':('collapse',),
-            'fields':('category','is_recommend','click_count',)
+            'fields':('category','is_recommend','click_count','tag',)
         }),
 
     )

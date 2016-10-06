@@ -1,0 +1,621 @@
+html {
+	background: rgb(235, 235, 235); color: rgb(80, 80, 80); line-height: 1.75em; font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif; position: relative;
+}
+body {
+	background: rgb(235, 235, 235); color: rgb(80, 80, 80); line-height: 1.75em; font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif; position: relative;
+}
+h1 {
+	color: rgb(48, 48, 48); font-weight: 400;
+}
+h2 {
+	color: rgb(48, 48, 48); font-weight: 400;
+}
+h3 {
+	color: rgb(48, 48, 48); font-weight: 400;
+}
+h4 {
+	color: rgb(48, 48, 48); font-weight: 400;
+}
+h5 {
+	color: rgb(48, 48, 48); font-weight: 400;
+}
+h6 {
+	color: rgb(48, 48, 48); font-weight: 400;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2.5em;
+}
+h3 {
+	font-size: 2em;
+}
+h4 {
+	font-size: 1.5em;
+}
+h5 {
+	font-size: 1em;
+}
+h6 {
+	font-size: 0.75em;
+}
+a {
+	color: rgb(244, 100, 95);
+}
+a:hover {
+	color: rgb(244, 100, 95);
+}
+a:active {
+	
+}
+a:focus {
+	
+}
+a img {
+	
+}
+.btn {
+	padding: 7px 14px; border-radius: 2px;
+}
+.btn-default {
+	background: rgb(244, 100, 95); border: 1px solid rgb(244, 100, 95); transition:0.2s ease-in-out; border-image: none; color: rgb(255, 255, 255); -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+.btn-default:hover {
+	background: rgb(48, 48, 48); border: 1px solid rgb(48, 48, 48); border-image: none; color: rgb(255, 255, 255);
+}
+.btn-default:focus {
+	
+}
+[disabled].btn-default {
+	background: rgb(48, 48, 48); border: 1px solid rgb(48, 48, 48); border-image: none; color: rgb(255, 255, 255);
+}
+input[type='search'] {
+	padding: 7px; border-radius: 2px; border: 1px solid rgb(235, 235, 235); transition:0.2s; border-image: none; -webkit-transition: all 0.2s; -o-transition: all 0.2s;
+}
+input[type='text'] {
+	padding: 7px; border-radius: 2px; border: 1px solid rgb(235, 235, 235); transition:0.2s; border-image: none; -webkit-transition: all 0.2s; -o-transition: all 0.2s;
+}
+input[type='url'] {
+	padding: 7px; border-radius: 2px; border: 1px solid rgb(235, 235, 235); transition:0.2s; border-image: none; -webkit-transition: all 0.2s; -o-transition: all 0.2s;
+}
+input[type='email'] {
+	padding: 7px; border-radius: 2px; border: 1px solid rgb(235, 235, 235); transition:0.2s; border-image: none; -webkit-transition: all 0.2s; -o-transition: all 0.2s;
+}
+textarea {
+	padding: 7px; border-radius: 2px; border: 1px solid rgb(235, 235, 235); transition:0.2s; border-image: none; -webkit-transition: all 0.2s; -o-transition: all 0.2s;
+}
+input[type='search']:focus {
+	border: 1px solid rgb(244, 100, 95); border-image: none;
+}
+input[type='text']:focus {
+	border: 1px solid rgb(244, 100, 95); border-image: none;
+}
+input[type='url']:focus {
+	border: 1px solid rgb(244, 100, 95); border-image: none;
+}
+input[type='email']:focus {
+	border: 1px solid rgb(244, 100, 95); border-image: none;
+}
+textarea:focus {
+	border: 1px solid rgb(244, 100, 95); border-image: none;
+}
+blockquote {
+	border-left-color: rgb(244, 100, 95); border-left-width: 4px; border-left-style: solid;
+}
+pre {
+	background: none; padding: 0px; border: currentColor; border-image: none;
+}
+::selection {
+	background: rgb(244, 100, 95); color: rgb(255, 255, 255); text-shadow: none;
+}
+.main-header {
+	background: rgb(244, 100, 95); padding: 42px 0px; text-align: center;
+}
+.main-header .branding {
+	color: rgb(48, 48, 48); font-size: 3.5em;
+}
+.main-header .branding:hover {
+	text-decoration: none;
+}
+.main-header .branding img {
+	max-width: 100%;
+}
+.main-header h1 {
+	color: rgb(255, 255, 255);
+}
+.btn-doc {
+	border: 1px solid rgb(241, 54, 47); border-image: none; bottom: -40px; position: relative; background-color: transparent;
+}
+@media only screen and (max-width:767px)
+{
+.btn-doc {
+	width: 50%; margin-top: 10px; margin-right: auto; margin-left: auto; display: block;
+}
+}
+.home-template .main-header {
+	background-position: center 20%; padding-top: 62px; padding-bottom: 62px; background-repeat: no-repeat; background-size: cover; -webkit-background-size: cover;
+}
+.main-navigation {
+	background: rgb(255, 255, 255); text-align: center; margin-bottom: 35px; border-top-color: rgb(235, 235, 235); border-bottom-color: rgb(225, 225, 225); border-top-width: 1px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;
+}
+.main-navigation .menu {
+	margin: 0px; padding: 0px;
+}
+.main-navigation .menu li {
+	list-style: none; display: inline-block; position: relative;
+}
+.main-navigation .menu li.nav-current {
+	margin-bottom: -2px; border-bottom-color: rgb(244, 100, 95); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.main-navigation .menu li a {
+	padding: 0px 21px; color: rgb(80, 80, 80); line-height: 4em; display: block;
+}
+.main-navigation .menu li:hover > a {
+	color: rgb(244, 100, 95); text-decoration: none;
+}
+.main-navigation .menu li ul {
+	background: rgb(255, 255, 255); margin: 0px; padding: 7px 0px; transition:0.2s; left: 0px; top: 120%; width: 200px; text-align: left; visibility: hidden; position: absolute; z-index: 999; opacity: 0; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.main-navigation .menu li ul li {
+	margin: 0px; display: block;
+}
+.main-navigation .menu li ul li a {
+	color: rgb(80, 80, 80); line-height: 2.5em;
+}
+.main-navigation .menu li ul:hover > a {
+	color: rgb(244, 100, 95);
+}
+.main-navigation .menu li:hover ul {
+	top: 100%; visibility: visible; opacity: 1;
+}
+@media all and (max-width:767px)
+{
+.main-navigation {
+	text-align: left;
+}
+.main-navigation .menu li {
+	display: block;
+}
+.main-navigation .menu li:hover > a {
+	color: rgb(244, 100, 95); text-decoration: none;
+}
+.main-navigation .menu li ul {
+	margin: 0px; padding: 0px 0px 0px 20px; top: 0px; width: 100%; visibility: visible; position: relative; opacity: 1;
+}
+}
+.navbar-header {
+	text-align: center;
+}
+.navbar-header i {
+	height: 56px; line-height: 56px; font-size: 2em; cursor: pointer;
+}
+@media all and (min-width:768px)
+{
+.nav-toggle-button {
+	display: none;
+}
+}
+.post {
+	background: rgb(255, 255, 255); padding: 35px; overflow: hidden; margin-bottom: 35px; position: relative;
+}
+.post .featured {
+	background: rgb(244, 100, 95); top: -12px; width: 80px; height: 40px; text-align: center; right: -32px; color: rgb(255, 255, 255); line-height: 54px; position: absolute; transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg);
+}
+.post .featured i {
+	transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg);
+}
+.post .post-head {
+	text-align: center;
+}
+.post .post-head .post-title {
+	margin: 0px; line-height: 1.2em; font-size: 2em;
+}
+.post .post-head .post-title a {
+	color: rgb(48, 48, 48);
+}
+.post .post-head .post-title a:hover {
+	text-decoration: none;
+}
+.post .post-head .post-title a:focus {
+	text-decoration: none;
+}
+.post .post-head .post-meta {
+	margin: 14px 0px 0px; color: rgb(149, 149, 149);
+}
+.post .post-head .post-meta span {
+	margin: 0px 7px; white-space: nowrap;
+}
+.post .featured-media {
+	overflow: hidden; margin-top: 30px;
+}
+.post .featured-media img {
+	width: 100%;
+}
+.post .post-content {
+	margin: 30px 0px;
+}
+.post .post-footer {
+	padding: 21px 0px 0px; margin-top: 30px; border-top-color: rgb(235, 235, 235); border-top-width: 1px; border-top-style: solid;
+}
+.post .post-footer .tag-list {
+	color: rgb(149, 149, 149); line-height: 28px;
+}
+.post .post-footer .tag-list a {
+	color: rgb(149, 149, 149); margin-left: 7px;
+}
+.post .post-footer .tag-list a:hover {
+	color: rgb(244, 100, 95);
+}
+.post-content {
+	font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif; color: rgb(68, 68, 67); font-size-adjust: none; font-stretch: normal;
+}
+.post-content h1 {
+	color: rgb(34, 34, 35); font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+}
+.post-content h2 {
+	color: rgb(34, 34, 35); font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+}
+.post-content h3 {
+	color: rgb(34, 34, 35); font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+}
+.post-content h4 {
+	color: rgb(34, 34, 35); font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+}
+.post-content h5 {
+	color: rgb(34, 34, 35); font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+}
+.post-content h6 {
+	color: rgb(34, 34, 35); font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+}
+.post-content h1 {
+	margin: 0.67em 0px; font-size: 1.8em;
+}
+.post-content > h1 {
+	font-size: 2em; margin-top: 0px;
+}
+.post-content h2 {
+	margin: 0.83em 0px; font-size: 1.5em;
+}
+.post-content h3 {
+	margin: 1em 0px; font-size: 1.17em;
+}
+.post-content h4 {
+	margin: 1.6em 0px 1em; font-size: 1em;
+}
+.post-content h5 {
+	margin: 1.6em 0px 1em; font-size: 1em;
+}
+.post-content h6 {
+	margin: 1.6em 0px 1em; font-size: 1em;
+}
+.post-content h6 {
+	font-weight: 500;
+}
+.post-content p {
+	margin-top: 0px; margin-bottom: 1.46em;
+}
+.post-content a {
+	-ms-word-wrap: break-word; -moz-text-decoration-color: rgba(0, 0, 0, 0.4); -webkit-text-decoration-color: rgba(0, 0, 0, 0.4); text-decoration-color: rgba(0, 0, 0, 0.4);
+}
+.post-content a:hover {
+	-moz-text-decoration-color: rgba(0, 0, 0, 0.6); -webkit-text-decoration-color: rgba(0, 0, 0, 0.6); text-decoration-color: rgba(0, 0, 0, 0.6);
+}
+.post-content a img {
+	border: currentColor; border-image: none;
+}
+.post-content strong {
+	color: rgb(34, 34, 35); font-weight: 700;
+}
+.post-content b {
+	color: rgb(34, 34, 35); font-weight: 700;
+}
+.post-content em {
+	color: rgb(34, 34, 35); font-style: italic;
+}
+.post-content i {
+	color: rgb(34, 34, 35); font-style: italic;
+}
+.post-content img {
+	margin: 0.2em 0px; height: auto; max-width: 100%;
+}
+.post-content figure {
+	margin: 10px 0px 30px; padding: 0px; outline: 0px; clear: both; position: relative; min-height: 100px;
+}
+.post-content figure img {
+	margin: auto auto 4px; display: block; max-width: 100%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.post-content figure figcaption {
+	left: 0px; width: 100%; text-align: center; color: rgb(102, 102, 101); font-size: 14px; font-weight: 400; margin-top: 10px; position: relative;
+}
+.post-content figure figcaption a {
+	color: rgb(102, 102, 101); text-decoration: none;
+}
+.post-content hr {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(222, 222, 220) currentColor currentColor; margin: 3.2em auto; padding: 0px; border-image: none; width: 50%; height: 1px; display: block;
+}
+.post-content blockquote {
+	margin: 0px 0px 1.64em; color: rgb(102, 102, 100); padding-left: 12px; border-left-color: rgb(244, 100, 95); border-left-width: 3px; border-left-style: solid;
+}
+.post-content blockquote a {
+	color: rgb(102, 102, 100);
+}
+.post-content ul {
+	margin: 0px 0px 24px 6px; padding-left: 16px;
+}
+.post-content ol {
+	margin: 0px 0px 24px 6px; padding-left: 16px;
+}
+.post-content ul {
+	list-style-type: square;
+}
+.post-content ol {
+	list-style-type: decimal;
+}
+.post-content li {
+	margin-bottom: 0.2em;
+}
+.post-content li ul {
+	margin-top: 0px; margin-bottom: 0px; margin-left: 14px;
+}
+.post-content li ol {
+	margin-top: 0px; margin-bottom: 0px; margin-left: 14px;
+}
+.post-content li ul {
+	list-style-type: disc;
+}
+.post-content li ul ul {
+	list-style-type: circle;
+}
+.post-content li p {
+	margin: 0.4em 0px 0.6em;
+}
+.post-content .unstyled {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+.post-content code {
+	padding: 1px 2px; border-radius: 3px; border: 1px solid rgb(218, 218, 218); border-image: none; color: rgb(128, 128, 128); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 0.96em; -ms-word-wrap: break-word; background-color: rgb(249, 249, 247);
+}
+.post-content tt {
+	padding: 1px 2px; border-radius: 3px; border: 1px solid rgb(218, 218, 218); border-image: none; color: rgb(128, 128, 128); font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 0.96em; -ms-word-wrap: break-word; background-color: rgb(249, 249, 247);
+}
+.post-content pre {
+	border-width: medium medium medium 3px; border-style: none none none solid; border-color: currentColor currentColor currentColor rgb(218, 218, 218); margin: 1.64em 0px; padding: 7px 7px 7px 10px; border-image: none; color: rgb(76, 76, 76); line-height: 1.5; overflow: auto; font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 0.96em; background-color: rgb(249, 249, 247);
+}
+.post-content pre code {
+	background: none; padding: 0px; border: currentColor; border-image: none; color: rgb(76, 76, 76);
+}
+.post-content pre tt {
+	background: none; padding: 0px; border: currentColor; border-image: none; color: rgb(76, 76, 76);
+}
+.post-content table {
+	width: 100%; font-size: 0.96em; margin-bottom: 1.5em; border-collapse: collapse; max-width: 100%; box-sizing: border-box; border-spacing: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.post-content th {
+	padding: 4px 8px 4px 10px; border: 1px solid rgb(218, 218, 218); border-image: none; text-align: left;
+}
+.post-content td {
+	padding: 4px 8px 4px 10px; border: 1px solid rgb(218, 218, 218); border-image: none; text-align: left;
+}
+.post-content td {
+	vertical-align: top;
+}
+.post-content tr:nth-child(2n) {
+	background-color: rgb(239, 239, 238);
+}
+.post-content iframe {
+	margin-bottom: 30px; display: block; max-width: 100%;
+}
+.post-content figure iframe {
+	margin: auto;
+}
+.post-content table pre {
+	background: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+@media all and (min-width:1100px)
+{
+.post-content blockquote {
+	border-width: 4px; padding-left: 20px; margin-left: -24px;
+}
+.post-content blockquote blockquote {
+	margin-left: 0px;
+}
+.post-content figure img {
+	margin: 0px 0px 4px;
+}
+.post-content figure figcaption {
+	left: -172px; top: 0px; width: 150px; text-align: right; margin-top: 0px; position: absolute;
+}
+.post-content figure figcaption::before {
+	width: 25%; margin-bottom: 10px; margin-left: 75%; border-top-color: rgb(222, 222, 220); border-top-width: 1px; border-top-style: solid; display: block; content: "";
+}
+}
+.windows .post-content {
+	font-family: "Georgia", "SimSun", sans-serif; font-size: 16px;
+}
+.pagination {
+	margin: 0px 0px 35px; text-align: center; display: block;
+}
+.pagination a {
+	background: rgb(244, 100, 95); border-radius: 2px; text-align: center; color: rgb(255, 255, 255); display: inline-block;
+}
+.pagination a a:hover {
+	background: rgb(80, 80, 80); color: rgb(255, 255, 255); text-decoration: none;
+}
+.pagination a i {
+	width: 36px; height: 36px; line-height: 36px;
+}
+.pagination .page-number {
+	background: rgb(244, 100, 95); margin: 0px 3px; padding: 0px 14px; border-radius: 2px; color: rgb(255, 255, 255); line-height: 36px; display: inline-block;
+}
+.about-author {
+	background: rgb(255, 255, 255); padding: 35px; margin-bottom: 35px;
+}
+.about-author .avatar {
+	border-radius: 50%; width: 100px; height: 100px;
+}
+.about-author .details {
+	margin-left: 114px;
+}
+.about-author .author {
+	font-size: 1.5em; margin-bottom: 7px;
+}
+.about-author .author a:hover {
+	text-decoration: none;
+}
+.about-author .meta-info {
+	color: rgb(149, 149, 149); margin-bottom: 7px;
+}
+.about-author .meta-info span {
+	margin-right: 14px; white-space: nowrap;
+}
+.about-author .meta-info span i {
+	margin-right: 7px;
+}
+.prev-next-wrap {
+	text-align: center; margin-bottom: 35px;
+}
+@media all and (max-width:767px)
+{
+.prev-next-wrap a {
+	display: block;
+}
+}
+.sidebar .widget {
+	background: rgb(255, 255, 255); padding: 21px 30px;
+}
+.main-footer .widget {
+	padding: 0px 30px;
+}
+.widget {
+	margin-bottom: 35px;
+}
+.widget .title {
+	padding-bottom: 7px; margin-top: 0px; margin-bottom: 21px; border-bottom-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.widget .title::after {
+	background: rgb(244, 100, 95); left: 0px; width: 90px; height: 1px; bottom: -1px; position: absolute; content: "";
+}
+.widget .recent-post .recent-single-post {
+	padding-bottom: 14px; margin-bottom: 14px; border-bottom-color: rgb(235, 235, 235); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.widget .recent-post :last-child.recent-single-post {
+	margin-bottom: 0px;
+}
+.widget .recent-post .recent-single-post .post-title {
+	transition:0.2s; color: rgb(80, 80, 80); -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.widget .recent-post .recent-single-post .post-title:hover {
+	color: rgb(244, 100, 95); text-decoration: none;
+}
+.widget .recent-post .recent-single-post .date {
+	color: rgb(149, 149, 149);
+}
+.widget .tag-cloud a {
+	margin: 0px 7px 7px 0px; padding: 2px 7px; border: 1px solid rgb(235, 235, 235); transition:0.2s; border-image: none; color: rgb(149, 149, 149); line-height: 1.5em; display: inline-block; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.widget .tag-cloud a:hover {
+	background: rgb(244, 100, 95); border: 1px solid rgb(244, 100, 95); border-image: none; color: rgb(255, 255, 255); text-decoration: none;
+}
+.widget .social {
+	margin: 0px; padding: 0px;
+}
+.widget .social li {
+	margin: 0px 2px 5px 0px; text-align: center; display: inline-block;
+}
+.widget .social li a i {
+	border: 1px solid rgb(235, 235, 235); transition:0.2s; border-image: none; width: 35px; height: 35px; color: rgb(149, 149, 149); line-height: 35px; -webkit-transition: all 0.2s; -o-transition: all 0.2s;
+}
+.widget .social li:hover i {
+	background: rgb(244, 100, 95); border: 1px solid rgb(244, 100, 95); border-image: none; color: rgb(255, 255, 255);
+}
+.widget .newsletter .input-group {
+	margin-bottom: 10px; display: block;
+}
+.widget .newsletter .input-group .email {
+	width: 100%;
+}
+.widget .newsletter .input-group btn {
+	width: 100%;
+}
+.widget .ad {
+	text-align: center;
+}
+.widget .ad img {
+	max-width: 100%;
+}
+.cover {
+	background: rgb(255, 255, 255); padding: 35px; text-align: center; margin-bottom: 35px;
+}
+.cover .tag-name {
+	margin-top: 0px;
+}
+.cover .post-count {
+	color: rgb(149, 149, 149); margin-top: 7px;
+}
+.cover .avatar {
+	border-radius: 50%; width: 100px; height: 100px;
+}
+.cover .meta-info {
+	color: rgb(149, 149, 149);
+}
+.cover .meta-info span {
+	margin: 0px 7px;
+}
+.cover .meta-info span i {
+	margin-right: 7px;
+}
+.cover .bio {
+	margin-top: 7px;
+}
+.main-footer {
+	background: rgb(32, 32, 32); padding: 35px 0px 0px; color: rgb(149, 149, 149);
+}
+.main-footer .widget .title {
+	color: rgb(255, 255, 255); border-bottom-color: rgb(48, 48, 48); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.main-footer .widget .tag-cloud a {
+	border: 1px solid rgb(48, 48, 48); border-image: none;
+}
+.main-footer .widget .tag-cloud a:hover {
+	border: 1px solid rgb(244, 100, 95); border-image: none;
+}
+.main-footer .widget .friend-links a {
+	border: currentColor; border-image: none;
+}
+.main-footer .widget .friend-links a:hover {
+	border: currentColor; border-image: none;
+}
+.main-footer .widget .friend-links hr {
+	margin: 1em 0px; border-top-color: rgb(48, 48, 48); border-top-width: 1px; border-top-style: dashed;
+}
+.main-footer .widget .recent-post .recent-single-post {
+	border-bottom-color: rgb(48, 48, 48); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.main-footer .widget .recent-post .recent-single-post .post-title {
+	color: rgb(149, 149, 149);
+}
+.main-footer .widget .recent-post .recent-single-post .post-title:hover {
+	color: rgb(244, 100, 95);
+}
+.main-footer .widget .recent-post .recent-single-post .date {
+	color: rgb(80, 80, 80);
+}
+.copyright {
+	background: rgb(17, 17, 17); text-align: center; color: rgb(85, 85, 85); padding-top: 28px; padding-bottom: 28px; font-size: 13px; border-top-color: rgb(48, 48, 48); border-top-width: 1px; border-top-style: solid;
+}
+.copyright span {
+	margin: 0px 0.5em;
+}
+.copyright a {
+	color: rgb(85, 85, 85);
+}
+#back-to-top {
+	background: rgba(244, 100, 95, 0.6); border-radius: 2px; text-align: center; right: 10px; bottom: 10px; color: rgb(255, 255, 255); display: none; position: fixed; z-index: 1;
+}
+#back-to-top:hover {
+	background: rgb(244, 100, 95);
+}
+#back-to-top i {
+	width: 30px; height: 30px; line-height: 30px;
+}

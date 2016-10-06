@@ -1,0 +1,58 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>{{ SITE_NAME  }}</title>
+<meta name="keywords" content="sBlog" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="{% static 'css/index.css' %}"/>
+<link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+{% block custom_css %}{% endblock %}
+<script type="text/javascript" src="{% static 'js/jquery1.42.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.SuperSlide.2.1.1.js' %}"></script>
+{% block custom_js %}{% endblock %}
+<!--[if lt IE 9]>
+<script src=" {% static 'js/html5.js' %}"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!--header start-->
+    <div id="header">
+      <h1>{{ SITE_NAME  }}</h1>
+      <p>{{ SITE_DESC  }}</p>
+    </div>
+     <!--header end-->
+    <!--nav-->
+     <div id="nav">
+        <ul>
+         <li><a href="index.html">首页</a></li>
+         <li><a href="about.html">关于我</a></li>
+         <li><a href="shuo.html">碎言碎语</a></li>
+         <li><a href="riji.html">个人日记</a></li>
+         <li><a href="xc.html">相册展示</a></li>
+         <li><a href="learn.html">学无止境</a></li>
+         <li><a href="guestbook.html">留言板</a></li>
+         <div class="clear"></div>
+        </ul>
+      </div>
+       <!--nav end-->
+    <!--content start-->
+    <div id="content">
+         <!--left-->
+         {% block custom_left %}{% endblock %}
+         <!--left end-->
+         <!--right-->
+         {% block custom_right %}{% endblock %}
+         <!--right end-->
+         <div class="clear"></div>
+    </div>
+    <!--content end-->
+    <!--footer start-->
+    {% block custom_footer %}{% endblock %}
+    <!--footer end-->
+    <script type="text/javascript">jQuery(".lanmubox").slide({easing:"easeOutBounce",delayTime:400});</script>
+    <script  type="text/javascript" src="../static/js/nav.js"></script>
+</body>
+</html>

@@ -1473,3 +1473,579 @@ Traceback (most recent call last):
   File "D:\Django\sBlog\Blog\views.py", line 17, in index
     return render (request,'index.html',{'ariticle_list': article_list})
 NameError: name 'ariticle_list' is not defined
+2016-10-05 21:46:36,847 [Thread-23:21296] [django.request:152] [WARNING]- Not Found: /guestbook.html
+2016-10-06 00:01:14,579 [Thread-3:21868] [django.request:152] [WARNING]- Not Found: /assets/css/screen.css
+2016-10-06 00:01:14,581 [Thread-4:21872] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:01:14,682 [Thread-5:21876] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:01:15,436 [Thread-6:21884] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:01:16,040 [Thread-7:21888] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:01:18,827 [Thread-8:21940] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 00:03:30,733 [Thread-14:22328] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:03:30,765 [Thread-15:22348] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:03:31,496 [Thread-16:22392] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:03:31,883 [Thread-20:22380] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:05:29,528 [Thread-25:21620] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:05:29,565 [Thread-27:19336] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:05:30,334 [Thread-28:21584] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:05:30,532 [Thread-31:18548] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:06:34,436 [Thread-3:15812] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:06:34,484 [Thread-4:16272] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:06:35,198 [Thread-5:22260] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:06:35,441 [Thread-8:22104] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:06:39,045 [Thread-15:22336] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:06:39,073 [Thread-16:20104] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 00:06:39,851 [Thread-17:10784] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:06:40,070 [Thread-20:21308] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:11:05,078 [Thread-27:19120] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:11:05,241 [Thread-30:22116] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:11:05,914 [Thread-33:14988] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:11:06,746 [Thread-38:21924] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:12:27,729 [Thread-44:21916] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:12:27,906 [Thread-46:14212] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:12:54,690 [Thread-55:15440] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:12:56,570 [Thread-61:22236] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:12:56,715 [Thread-63:22512] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:16:21,658 [Thread-71:13424] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:16:21,796 [Thread-74:15508] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:22:18,976 [Thread-8:18792] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:22:19,082 [Thread-11:2124] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:22:19,811 [Thread-15:7204] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:22:19,911 [Thread-17:12640] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:22:21,265 [Thread-22:15508] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:22:21,371 [Thread-24:17240] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:23:05,787 [Thread-64:22304] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:23:06,011 [Thread-66:21892] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:24:11,205 [Thread-71:22276] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:24:12,007 [Thread-77:18860] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:24:12,080 [Thread-78:19660] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:26:18,165 [Thread-88:17484] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:27:55,612 [Thread-95:21672] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:27:55,916 [Thread-97:21972] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:27:57,264 [Thread-102:19992] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:27:57,460 [Thread-105:21640] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:27:58,138 [Thread-109:20836] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:27:58,244 [Thread-111:21656] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:27:58,976 [Thread-116:18128] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:28:02,133 [Thread-122:14900] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:28:08,350 [Thread-127:10108] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:28:24,093 [Thread-132:22508] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:28:24,390 [Thread-134:14484] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:28:25,163 [Thread-139:15732] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:28:25,343 [Thread-141:21092] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:29:45,361 [Thread-150:21844] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:29:47,115 [Thread-157:22168] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:29:47,266 [Thread-160:21792] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:29:48,478 [Thread-164:13748] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:29:49,005 [Thread-168:13684] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:15,698 [Thread-176:21916] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:15,985 [Thread-178:19812] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:16,587 [Thread-183:19788] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:16,694 [Thread-186:13308] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:26,767 [Thread-195:21856] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:27,429 [Thread-197:21424] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:27,848 [Thread-202:22388] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:27,987 [Thread-205:20828] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:28,314 [Thread-209:16672] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:28,425 [Thread-211:13996] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:28,742 [Thread-216:22452] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:30:28,900 [Thread-218:21120] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:04,075 [Thread-223:22124] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:04,259 [Thread-225:22060] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:04,772 [Thread-230:20504] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:04,929 [Thread-233:17240] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:05,617 [Thread-237:21852] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:05,733 [Thread-240:12632] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:10,209 [Thread-244:18864] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:14,918 [Thread-249:15892] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:15,034 [Thread-251:18500] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:15,449 [Thread-256:21796] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:31:15,557 [Thread-258:21332] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:32:33,653 [Thread-262:13308] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:32:34,013 [Thread-264:19660] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:37:08,504 [Thread-275:6220] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:37:08,748 [Thread-277:12768] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:37:46,041 [Thread-284:18644] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:37:46,238 [Thread-282:5448] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:40:39,973 [Thread-289:16672] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:40:41,895 [Thread-295:10468] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:40:56,283 [Thread-300:15296] [django.request:152] [WARNING]- Not Found: /page/2/
+2016-10-06 00:42:49,275 [Thread-308:17620] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:42:50,147 [Thread-313:11168] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:45:35,267 [Thread-317:12548] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:45:40,500 [Thread-323:21324] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:47:16,031 [Thread-329:22268] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:49:54,510 [Thread-339:22256] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:49:58,835 [Thread-345:20504] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:50:36,479 [Thread-363:6220] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 00:51:16,458 [Thread-9:11216] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 26, in index
+    return render (request,'index1.html',locals(),)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Tag' object is not iterable
+2016-10-06 00:51:18,128 [Thread-10:20828] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 26, in index
+    return render (request,'index1.html',locals(),)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Tag' object is not iterable
+2016-10-06 00:51:19,415 [Thread-11:9344] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 26, in index
+    return render (request,'index1.html',locals(),)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Tag' object is not iterable
+2016-10-06 00:51:20,548 [Thread-12:19812] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 26, in index
+    return render (request,'index1.html',locals(),)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Tag' object is not iterable
+2016-10-06 00:53:42,457 [Thread-15:20972] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 26, in index
+    return render (request,'index1.html',locals(),)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Tag' object is not iterable
+2016-10-06 00:53:43,858 [Thread-14:21532] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 26, in index
+    return render (request,'index1.html',locals(),)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 217, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'Tag' object is not iterable
+2016-10-06 01:00:16,972 [Thread-7:20456] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:00:17,138 [Thread-11:17296] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:00:56,394 [Thread-16:21272] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:00:56,706 [Thread-20:14484] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:00:59,977 [Thread-22:2580] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:00,662 [Thread-26:19732] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:02,747 [Thread-28:22424] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:02,871 [Thread-30:11504] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:12,990 [Thread-35:22340] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:33,864 [Thread-50:12748] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:34,012 [Thread-52:14852] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:34,886 [Thread-57:22496] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:35,010 [Thread-59:13828] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:38,483 [Thread-64:9260] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:01:38,804 [Thread-66:21816] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:03:52,603 [Thread-73:22056] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:03:55,289 [Thread-77:20456] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:04:48,764 [Thread-82:19728] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:04:58,265 [Thread-88:21888] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:19,352 [Thread-108:2680] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:19,489 [Thread-110:21568] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:20,075 [Thread-115:14796] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:20,476 [Thread-117:11536] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:20,642 [Thread-121:18464] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:20,811 [Thread-126:18460] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:21,190 [Thread-131:22112] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:32,992 [Thread-136:20232] [django.request:152] [WARNING]- Not Found: /page/2/
+2016-10-06 01:06:49,933 [Thread-141:21116] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:58,483 [Thread-151:12480] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 01:06:58,542 [Thread-154:16396] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:27:57,638 [Thread-2:16088] [django.request:152] [WARNING]- Not Found: /favicon.ico
+2016-10-06 12:27:59,024 [Thread-8:16272] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:28:01,274 [Thread-15:23176] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:28:19,687 [Thread-16:18788] [django.request:152] [WARNING]- Not Found: //static/images/favicon.ico
+2016-10-06 12:47:18,749 [Thread-18:28696] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 27, in index
+    return render (request,'index1.html',locals(),)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\engine.py", line 160, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\engine.py", line 134, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 233, in compile_nodelist
+    return parser.parse()
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 519, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 537, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+2016-10-06 12:47:20,202 [Thread-19:29480] [django.request:124] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Django\sBlog\Blog\views.py", line 27, in index
+    return render (request,'index1.html',locals(),)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\backends\django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\engine.py", line 160, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\engine.py", line 134, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\loaders\base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 233, in compile_nodelist
+    return parser.parse()
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 519, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "D:\Programs\Python\Python35\lib\site-packages\django\template\base.py", line 537, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+2016-10-06 12:48:08,896 [Thread-21:27528] [django.request:152] [WARNING]- Not Found: /assets/css/screen.css
+2016-10-06 12:48:08,920 [Thread-22:29616] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:48:08,921 [Thread-23:27784] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:48:08,922 [Thread-24:27932] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:48:11,281 [Thread-26:28156] [django.request:152] [WARNING]- Not Found: /assets/css/screen.css
+2016-10-06 12:48:11,285 [Thread-28:25940] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:48:11,289 [Thread-27:29928] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:48:11,290 [Thread-29:27280] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:48:12,085 [Thread-31:28408] [django.request:152] [WARNING]- Not Found: /assets/css/screen.css
+2016-10-06 12:48:12,109 [Thread-32:27776] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:48:12,114 [Thread-33:22108] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:48:12,209 [Thread-34:28092] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:50:25,086 [Thread-40:30768] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:50:25,089 [Thread-41:31164] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:50:25,092 [Thread-42:29052] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:50:26,520 [Thread-48:31052] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:50:26,527 [Thread-49:31048] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:50:26,532 [Thread-50:28268] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:51:48,099 [Thread-56:31020] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:51:48,104 [Thread-57:28348] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:51:48,109 [Thread-58:24804] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:51:49,138 [Thread-64:30752] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:51:49,147 [Thread-65:27944] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:51:49,155 [Thread-66:30016] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:51:49,854 [Thread-72:27260] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:51:49,872 [Thread-73:30036] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:51:49,878 [Thread-74:28352] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:51:50,475 [Thread-80:31656] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:51:50,479 [Thread-81:28804] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:51:50,480 [Thread-82:29512] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:51:51,235 [Thread-88:29668] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:51:51,239 [Thread-89:24892] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:51:51,242 [Thread-90:30520] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:53:01,870 [Thread-7:29440] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:53:01,915 [Thread-8:30288] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:53:01,917 [Thread-9:30420] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:53:04,268 [Thread-12:29968] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:53:04,269 [Thread-13:25344] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:53:04,271 [Thread-14:30588] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:53:39,320 [Thread-20:29752] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:53:39,321 [Thread-21:8568] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:53:39,326 [Thread-22:30276] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:53:43,384 [Thread-29:30596] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:53:43,386 [Thread-28:27472] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:53:43,387 [Thread-30:31252] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:57:28,408 [Thread-39:31060] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:57:28,411 [Thread-40:11464] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:57:28,415 [Thread-41:12260] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:57:32,875 [Thread-7:9868] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:57:32,876 [Thread-8:13316] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:57:32,881 [Thread-9:13468] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:58:31,681 [Thread-16:29608] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:58:31,728 [Thread-17:12684] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:58:31,765 [Thread-18:12936] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:58:32,763 [Thread-20:13252] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:58:33,734 [Thread-22:12588] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:59:42,819 [Thread-28:8712] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:59:42,821 [Thread-29:14160] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:59:42,824 [Thread-30:29856] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 12:59:48,720 [Thread-36:14340] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 12:59:48,723 [Thread-37:680] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 12:59:48,731 [Thread-38:14408] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:01:13,764 [Thread-40:28680] [django.request:152] [WARNING]- Not Found: /assets/css/screen.css
+2016-10-06 13:01:13,765 [Thread-41:29176] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:01:13,769 [Thread-42:12148] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:01:13,770 [Thread-43:12384] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:03:15,639 [Thread-49:26812] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:03:15,645 [Thread-50:26816] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:03:15,649 [Thread-51:27088] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:03:19,283 [Thread-59:28548] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:03:19,296 [Thread-57:27984] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:03:19,298 [Thread-58:23940] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:04:36,345 [Thread-67:28296] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:04:36,356 [Thread-68:5916] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:04:36,369 [Thread-69:29320] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:04:38,158 [Thread-79:29420] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:04:38,161 [Thread-78:30844] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:04:38,164 [Thread-80:14388] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:04:39,871 [Thread-90:13264] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:04:39,873 [Thread-89:15272] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:04:39,875 [Thread-91:6920] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:04:41,213 [Thread-101:2876] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:04:41,214 [Thread-100:14176] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:04:41,215 [Thread-102:23344] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:05:05,701 [Thread-7:31028] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:05:05,707 [Thread-8:1932] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:05:05,708 [Thread-9:15788] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:05:07,020 [Thread-18:16632] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:05:07,029 [Thread-19:20500] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:05:07,030 [Thread-20:16276] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:05:08,409 [Thread-30:17284] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:05:08,412 [Thread-29:16544] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:05:08,416 [Thread-31:2164] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:05:09,734 [Thread-41:16196] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:05:09,741 [Thread-42:16728] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:05:09,744 [Thread-40:17216] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:05:31,337 [Thread-51:17940] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:05:31,340 [Thread-52:9256] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:05:31,344 [Thread-53:15836] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 13:06:28,810 [Thread-62:14720] [django.request:152] [WARNING]- Not Found: /shared/ghost-url.min.js
+2016-10-06 13:06:28,812 [Thread-63:16656] [django.request:152] [WARNING]- Not Found: /assets/js/main.js
+2016-10-06 13:06:28,816 [Thread-64:17876] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
