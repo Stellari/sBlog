@@ -38,8 +38,8 @@
     <footer class="post-footer clearfix">
         <div class="pull-left tag-list">
             <i class="fa fa-folder-open-o"></i>
-            {% for article in article_list %}
-                <a href="/">{{ article.tag }}</a>,
+            {% for tag in article.tag_set.all %}
+                <a href="/">{{ tag.name }} &nbsp;</a>
             {% endfor %}
 
         </div>
@@ -51,9 +51,16 @@
 {% endblock %}
 
 {% block custom_navigation %}
-    <nav class="pagination" role="navigation">
-    <span class="page-number">第 1 页 &frasl; 共 5 页</span>
-        <a class="older-posts" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+<nav class="pagination" role="navigation" id="pagination">
+        {% if article_list.has_previous %}
+            <a class="newer-posts" href="?page={{ article_list.previous_page_number }}"><i class="fa fa-angle-left"></i></a>
+        {% endif %}
+
+    <span class="page-number">第 {{ article_list.number }} 页 &frasl; 共 {{ article_list.paginator.num_pages }} 页</span>
+        {% if article_list.has_next %}
+            <a class="older-posts" href="?page={{ article_list.next_page_number }}"><i class="fa fa-angle-right"></i></a>
+        {% endif %}
+
 </nav>
 {% endblock %}
 

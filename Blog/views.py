@@ -14,7 +14,8 @@ def index(request):
     try:
         #文章
         article_list = Article.objects.all()
-        paginator = Paginator(article_list,10)
+        #设置每页文章数
+        paginator = Paginator(article_list,2)
         try:
             page = int(request.GET.get('page',1))
             article_list = paginator.page(page)
