@@ -14,7 +14,6 @@ def index(request):
     try:
         #文章
         article_list = Article.objects.all()
-        # at_list = Article.tag.all()
         # 广告数据
         ad_list = Ad.objects.all()
         #分类目录

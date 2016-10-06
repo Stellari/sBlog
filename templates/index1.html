@@ -12,5 +12,126 @@
     {% for category in category_list %}
         <li  role="presentation"><a href="/" title="{{ category.name }}"  target="_blank">{{ category.name }}</a></li>
     {% endfor %}
+{% endblock %}
 
+{% block custom_article %}
+    {% for article in article_list %}
+        <article id=67 class="post tag-laravel-5 tag-getting-started-with-laravel tag-laravel-5-2">
+
+    <div class="post-head">
+        <h1 class="post-title"><a href="/">{{ article.title }}</a></h1>
+        <div class="post-meta">
+            <span class="author">作者：<a href="/">{{ article.user }}</a></span> &bull;
+            <time class="post-date" datetime="{{ article.date_publish }}" title="{{ article.date_publish }}">{{ article.date_publish }}</time>
+        </div>
+    </div>
+    <div class="featured-media">
+        <a href="/"><img src="{% static 'images/11130f096dbec743756b69cbb22f9.jpg' %}" alt="{{ article.title }}"></a>
+    </div>
+    <div class="post-content">
+        <p>{{ article.desc }}</p>
+    </div>
+    <div class="post-permalink">
+        <a href="/" class="btn btn-default">阅读全文</a>
+    </div>
+
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <i class="fa fa-folder-open-o"></i>
+            {% for article in article_list %}
+                <a href="/">{{ article.tag }}</a>,
+            {% endfor %}
+
+        </div>
+        <div class="pull-right share">
+        </div>
+    </footer>
+</article>
+    {% endfor %}
+{% endblock %}
+
+{% block custom_navigation %}
+    <nav class="pagination" role="navigation">
+    <span class="page-number">第 1 页 &frasl; 共 5 页</span>
+        <a class="older-posts" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+</nav>
+{% endblock %}
+
+{% block custom_right1 %}
+    <div class="widget">
+	<h4 class="title">About Stellari</h4>
+	<div class="content community">
+		<p>QQ：412274565</p>
+		<p><a href="{{ WEIBO }}" title="{{ SITE_NAME }}" target="_blank" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '微博'])"><i class="fa fa-comments"></i> 微博</a></p>
+	</div>
+</div>
+{% endblock %}
+
+{% block custom_right2 %}
+    <div class="widget">
+	<h4 class="title">随意写写</h4>
+	<div class="content download">
+		<a href="/download/" class="btn btn-default btn-block" onclick="_hmt.push(['_trackEvent', 'big-button', 'click', '随意写'])">Stellari随意写写</a>
+	</div>
+</div>
+{% endblock %}
+
+{% block custom_widget %}
+    <div class="widget">
+	<h4 class="title">标签云</h4>
+	<div class="content tag-cloud">
+		{% for tag in tag_list %}
+		    <a href="/">{{ tag.name }}</a>
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}
+
+{% block custom_footerleft %}
+    <div class="widget">
+                        <h4 class="title">最新文章</h4>
+                        <div class="content recent-post">
+                                {% for article in article_list %}
+                                    <div class="recent-single-post">
+                                    <a href="/" class="post-title">{{ article.title }}</a>
+                                    <div class="date">{{ article.date_publish }}</div>
+                                </div>
+                                {% endfor %}
+                        </div>
+                    </div>
+{% endblock %}
+
+{% block custom_foottermiddle %}
+    <div class="widget">
+                        <h4 class="title">标签云</h4>
+                        <div class="content tag-cloud">
+                            {% for tag in tag_list %}
+                                <a href="/">{{ tag.name }}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+{% endblock %}
+
+{% block custom_footerright %}
+    <div class="widget">
+                        <h4 class="title">正在学习</h4>
+                        <div class="content tag-cloud friend-links">
+                            {% for category in category_list %}
+                            <a href="/" title="{{ category.name }}" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target="_blank">{{ category.name }}</a>
+                            {% endfor %}
+                            <hr>
+                        </div>
+                </div></div>
+{% endblock %}
+
+{% block custom_copyright %}
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span>Copyright &copy; <a href="http://weibo.com/lixh">Stellari</a></span> |
+                    <span><a href="/" target="_blank">我没有备案啊</a></span> |
+                    <span>警察叔叔别捉我</span>
+                </div>
+            </div>
+        </div>
 {% endblock %}
