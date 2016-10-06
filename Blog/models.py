@@ -48,7 +48,7 @@ class Article(models.Model):
     date_publish = models.DateTimeField(auto_now_add=True,verbose_name="发布时间",null=True)
     user = models.ForeignKey(User,verbose_name="用户",null=True)
     category = models.ForeignKey(Category, blank=True, null=True,verbose_name="文章分类")
-    tag = models.ForeignKey(Tag,verbose_name="标签",null=True)
+    tag = models.ManyToManyField(Tag,verbose_name="标签",null=True)
 
     class Meta:
         verbose_name_plural = verbose_name="文章"

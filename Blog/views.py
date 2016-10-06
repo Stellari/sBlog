@@ -14,7 +14,7 @@ def index(request):
     try:
         #文章
         article_list = Article.objects.all()
-        at_list = Article.tag.all()
+        # at_list = Article.tag.all()
         # 广告数据
         ad_list = Ad.objects.all()
         #分类目录
@@ -22,6 +22,7 @@ def index(request):
         #标签分类
         tag_list = Tag.objects.all()
 
+
     except Exception as e:
         logger.error(e)
-    return render (request,'base.html',locals(),)
+    return render (request,'index1.html',locals(),)

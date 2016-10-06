@@ -1,2 +1,16 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
+
+{% block custom_tag %}
+    {% for tag in tag_list  %}
+        <a href="/" class="btn btn-default btn-doc" target="_blank">{{ tag.name }}</a>
+    {% endfor %}
+{% endblock %}
+
+{% block custom_menu %}
+    <li class="nav-current" role="presentation"><a href="/">首页</a></li>
+    {% for category in category_list %}
+        <li  role="presentation"><a href="/" title="{{ category.name }}"  target="_blank">{{ category.name }}</a></li>
+    {% endfor %}
+
+{% endblock %}
