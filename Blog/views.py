@@ -14,12 +14,19 @@ def index(request):
     try:
         #文章
         article_list = Article.objects.all()
+        paginator = Paginator(article_list,10)
+        try:
+            page = int(request.GET.get('page',1))
+            article_list = paginator.page(page)
+        except (EmptyPage,InvalidPage,PageNotAnInteger ):
+            article_list = paginator.page(1)
         # 广告数据
         ad_list = Ad.objects.all()
         #分类目录
         category_list = Category.objects.all()
         #标签分类
         tag_list = Tag.objects.all()
+
 
 
     except Exception as e:
