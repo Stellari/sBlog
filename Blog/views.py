@@ -28,8 +28,8 @@ def index(request):
         #标签分类
         tag_list = Tag.objects.all()
 
-
+        archive_list = Article.objects.distinct_date()
 
     except Exception as e:
         logger.error(e)
-    return render (request,'index1.html',locals(),)
+    return render (request,'index.html',locals(),)

@@ -3,6 +3,18 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
+
+# 自定义过滤器
+class ArticleManager(models.Manager):
+    def distinct_date(self):
+        distinct_date_list = []
+        date_list = self.values('date_publish')
+        for date in date_list:
+            date = date['date_publish'].strftime('%Y/%M文章存档')
+            if date not in distinct_date_list:
+                distinct_date_list.append(date)
+        return distinct_date_list
+
 # User 用户模型
 # 采用的集成方式扩展用户信息
 class User(AbstractUser):
@@ -49,6 +61,8 @@ class Article(models.Model):
     user = models.ForeignKey(User,verbose_name="用户",null=True)
     category = models.ForeignKey(Category, blank=True, null=True,verbose_name="文章分类")
     tag = models.ManyToManyField(Tag,verbose_name="标签",null=True)
+
+    objects = ArticleManager()
 
     class Meta:
         verbose_name_plural = verbose_name="文章"
@@ -100,3 +114,4 @@ class Ad(models.Model):
 
     def __str__(self):
         return self.title
+

@@ -3364,3 +3364,8 @@ tz
 2016-10-06 18:00:40,345 [Thread-14:16692] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
 2016-10-06 18:01:25,328 [Thread-24:7808] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
 2016-10-06 18:01:29,447 [Thread-28:23796] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-06 23:33:40,034 [Thread-40:15376] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-12 21:07:15,883 [Thread-15:4908] [django.request:152] [WARNING]- Not Found: /favicon.ico
+2016-10-12 21:07:15,920 [Thread-16:10692] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-12 21:08:27,596 [Thread-10:7336] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
+2016-10-12 21:08:37,060 [Thread-21:10028] [django.request:152] [WARNING]- Not Found: /assets/favicon.ico
